@@ -5,8 +5,8 @@ This repository has been created for the Udacity Data Science Nanodegree course 
 Using the Cross-Industry Standard for Data Mining (CRISP-DM) I will start by investigating both Airbnb as a company and looking into what mertics each dataset contains. This inital dive into the data should set the basis for the questions I will try to answer by giving me the Bussiness and Data Understanding needed to start the project. This will be performed in the first jupyter notebook called 'Initial_Data_Analysis.ipynb'
 
 The five initial buissness questions are as follows:
-1. What are the busiest times of year for both the Seattle and Boston markets? 
-2. In these busy periods which market becomes the most expensive?
-3. Over time are these periods becoming more busy/expensive? Which one is growing at a faster rate?
-4. Is there any correlation between the setiment of the reviews in each city and the growth in Airbnb prices?
-5. Can we project how we think these prices will change in the future? Which market should Airbnb Invest more money?
+1) Which market is most expensive Seattle or Boston?
+2) Are the prices seasonal & which market has a larger seasonal trend?
+3) Which property size metric influences prices most property type, property size, number of beds, number of rooms etc?
+4) Is there any correlation between the setiment of the reviews in each city and the Airbnb prices? 
+5) Can we use all of the above analysis be used to predict what a price should be for someone listing on Airbnb?
