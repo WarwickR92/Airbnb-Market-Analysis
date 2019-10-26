@@ -7,6 +7,6 @@ Using the Cross-Industry Standard for Data Mining (CRISP-DM) I will start by inv
 The five initial buissness questions are as follows:
 1) Which market is most expensive Seattle or Boston?
 2) Are the prices seasonal & which market has a larger seasonal trend?
-3) Which property size metric influences prices most property type, property size, number of beds, number of rooms etc?
+3) Which property size metric influences prices most property type, property size, number of beds etc?
 4) Is there any correlation between the setiment of the reviews in each city and the Airbnb prices? 
-5) Can we use all of the above analysis be used to predict what a price should be for someone listing on Airbnb?
+5) Can we use all of the analysis to predict what a price should be for someone listing a property on Airbnb?
