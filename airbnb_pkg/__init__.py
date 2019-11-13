@@ -47,18 +47,17 @@ def clean_listings_data(data):
     """
     This fuction is to perform a basic clean the raw listings data.
     """
-    # Keep only columns needed for our core questions including property size, neighbourhood, price & reviews
+    # Keep only columns that may influence cost including property size, neighbourhood, price & reviews
     # Dropped columns including state, dates of reviews, availability, if it's bookable, host info
     # All dropped columns should have very little to do with how much the AirBnB costs
     # Variables like steert were seen as being to granular    
     keep_col = ['id', 'neighbourhood', 'zipcode', 'property_type', 
                 'room_type', 'accommodates', 'bathrooms', 'bedrooms', 'beds', 
                 'bed_type', 'amenities', 'square_feet', 'price', 'weekly_price', 
-                'monthly_price', 'security_deposit','cleaning_fee', 
-                'number_of_reviews', 'review_scores_rating','review_scores_accuracy', 
-                'review_scores_cleanliness', 'review_scores_checkin', 
-                'review_scores_communication', 'review_scores_location', 
-                'review_scores_value', 'reviews_per_month']
+                'monthly_price', 'number_of_reviews', 'review_scores_rating',
+                'review_scores_accuracy', 'review_scores_cleanliness', 
+                'review_scores_checkin', 'review_scores_communication', 
+                'review_scores_location', 'review_scores_value', 'reviews_per_month']
 
     data = data[keep_col]
 
@@ -73,7 +72,7 @@ def clean_listings_data(data):
     print(f'Number of rows dropped: {len(data_dpcol)-len(data_fil)}')
 
     # Selects the columns related to price
-    price_columns = ['price','weekly_price','monthly_price','security_deposit','cleaning_fee']
+    price_columns = ['price','weekly_price','monthly_price']
 
     for column in price_columns:
         # Zero NaN's for now as they can be replaced by an average later on
