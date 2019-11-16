@@ -1,4 +1,4 @@
-# Airbnb_Data_Analysis
+# Airbnb_Market_Analysis
 
 This repository has been created for the Udacity Data Science Nanodegree course to put into practice the CRISP-DM process learnt throughout the course. In this repo we will examine data provided by Airbnb on both the Boston and Seattle markets to gain insights into the bussiness. The aim of this repository is to create meaningful insights to provide answers to core bussiness questions.
 
