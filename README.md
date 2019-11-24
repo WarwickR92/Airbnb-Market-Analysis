@@ -14,6 +14,9 @@ I will split the CRISP-DM process into the following notebooks in this project:
 - Data Proccessing - Data_Processing (Prepare Data).ipynb
 - Data Modeling & Evaluation - Data_Processing (Data Modeling).ipynb
 
+A blog has been created on this project and using a data science framework on medium here:
+https://medium.com/@wrommelrath/a-framework-for-running-data-science-projects-fd37b26a4389
+
 After the initial buissness understanding step I have came up with bussiness questions to focus on throughout the rest of the project:
 
 The three initial buissness questions are as follows:
