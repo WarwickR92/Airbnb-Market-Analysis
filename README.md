@@ -2,15 +2,24 @@
 
 In this repository I will examine data provided by Airbnb on both the Boston and Seattle markets to gain insights into the bussiness. The objective is to use the CRISP-DM data framework to answer some specific bussines questions. The aim of my analysis will be to recommend users a listing price based on various factors (e.g. location, amenities or size). The business case for this is simple, users with better prices wouldn't undervalue their property resulting in lost revenue or overvalue them losing out on bookings. 
 
+This project will follow the CRISP-DM Process a framework for running datascience projects. It follows the core steps listed below:
+- Business Understanding
+- Data Understanding
+- Prepare Data
+- Data Modeling
+- Evaluate the Results
+
+I will split the CRISP-DM process into the following notebooks in this project:
+- Bussiness Understanding & Data Understanding - Initial_Data_Analysis (Data Understanding).ipynb
+- Data Proccessing - Data_Processing (Prepare Data).ipynb
+- Data Modeling & Evaluation - Data_Processing (Data Modeling).ipynb
+
+After the initial buissness understanding step I have came up with bussiness questions to focus on throughout the rest of the project:
+
 The three initial buissness questions are as follows:
 1) Does the price vary the seasonally across both Airbnb markets?
 2) Which Airbnb listing variables will have the biggest impact on price?
 3) Can I predict prices based on the market, amenities and seasonality?
-
-I will split the CRISP-DM process into the following notebooks:
-Bussiness Understanding & Data Understanding - Initial_Data_Analysis (Data Understanding).ipynb
-Data Proccessing - Data_Processing (Prepare Data).ipynb
-Data Modeling & Evaluation - Data_Processing (Data Modeling).ipynb
 
 All cleaning and general functions used in multiple notebooks will be stored in the airbnb_pkg.
 
